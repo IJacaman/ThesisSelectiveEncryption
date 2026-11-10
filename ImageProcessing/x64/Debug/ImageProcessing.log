@@ -1,0 +1,460 @@
+﻿  project.cpp
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\cryptlib.h(158,44): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'CryptoPP::Exception'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\exception(39,19): message : see declaration of 'std::exception'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\cryptlib.h(158,20): message : see declaration of 'CryptoPP::Exception'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\cryptlib.h(198,14): warning C4251: 'CryptoPP::Exception::m_what': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'CryptoPP::Exception'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(5119,29): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\cryptlib.h(272,14): warning C4251: 'CryptoPP::OS_Error::m_operation': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'CryptoPP::OS_Error'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(5119,29): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\cryptlib.h(1651,89): warning C4275: non dll-interface class 'CryptoPP::Waitable' used as base for dll-interface class 'CryptoPP::BufferedTransformation'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\cryptlib.h(1602,26): message : see declaration of 'CryptoPP::Waitable'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\cryptlib.h(1651,39): message : see declaration of 'CryptoPP::BufferedTransformation'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\cryptlib.h(2389,63): warning C4275: non dll-interface class 'CryptoPP::NameValuePairs' used as base for dll-interface class 'CryptoPP::CryptoMaterial'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\cryptlib.h(321,7): message : see declaration of 'CryptoPP::NameValuePairs'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\cryptlib.h(2389,39): message : see declaration of 'CryptoPP::CryptoMaterial'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\rijndael.h(45,38): warning C4275: non dll-interface struct 'CryptoPP::Rijndael_Info' used as base for dll-interface class 'CryptoPP::Rijndael'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\rijndael.h(34,8): message : see declaration of 'CryptoPP::Rijndael_Info'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\rijndael.h(45,20): message : see declaration of 'CryptoPP::Rijndael'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\rijndael.h(50,2): warning C4275: non dll-interface struct 'CryptoPP::Rijndael_Info' used as base for dll-interface class 'CryptoPP::TwoBases<BASE,INFO>'
+          with
+          [
+              BASE=CryptoPP::BlockCipher,
+              INFO=CryptoPP::Rijndael_Info
+          ]
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\rijndael.h(34,8): message : see declaration of 'CryptoPP::Rijndael_Info'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\seckey.h(305,91): message : see declaration of 'CryptoPP::TwoBases<BASE,INFO>'
+          with
+          [
+              BASE=CryptoPP::BlockCipher,
+              INFO=CryptoPP::Rijndael_Info
+          ]
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\rijndael.h(67,57): warning C4251: 'CryptoPP::Rijndael::Base::m_key': class 'CryptoPP::SecBlock<CryptoPP::word32,CryptoPP::AllocatorWithCleanup<CryptoPP::word32,true>>' needs to have dll-interface to be used by clients of class 'CryptoPP::Rijndael::Base'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\rijndael.h(67,3): message : see declaration of 'CryptoPP::SecBlock<CryptoPP::word32,CryptoPP::AllocatorWithCleanup<CryptoPP::word32,true>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\rijndael.h(68,24): warning C4251: 'CryptoPP::Rijndael::Base::m_aliasBlock': class 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>' needs to have dll-interface to be used by clients of class 'CryptoPP::Rijndael::Base'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\secblockfwd.h(23,9): message : see declaration of 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\cbcmac.h(32,15): warning C4251: 'CryptoPP::CBC_MAC_Base::m_reg': class 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>' needs to have dll-interface to be used by clients of class 'CryptoPP::CBC_MAC_Base'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\secblockfwd.h(23,9): message : see declaration of 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\authenc.h(79,22): warning C4251: 'CryptoPP::AuthenticatedSymmetricCipherBase::m_buffer': class 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,true>>' needs to have dll-interface to be used by clients of class 'CryptoPP::AuthenticatedSymmetricCipherBase'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\secblockfwd.h(25,9): message : see declaration of 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,true>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\strciphr.h(397,22): warning C4251: 'CryptoPP::AdditiveCipherTemplate<CryptoPP::AbstractPolicyHolder<CryptoPP::AdditiveCipherAbstractPolicy,CryptoPP::SymmetricCipher>>::m_buffer': class 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,true>>' needs to have dll-interface to be used by clients of class 'CryptoPP::AdditiveCipherTemplate<CryptoPP::AbstractPolicyHolder<CryptoPP::AdditiveCipherAbstractPolicy,CryptoPP::SymmetricCipher>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\secblockfwd.h(25,9): message : see declaration of 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,true>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\strciphr.h(725,121): message : see reference to class template instantiation 'CryptoPP::AdditiveCipherTemplate<CryptoPP::AbstractPolicyHolder<CryptoPP::AdditiveCipherAbstractPolicy,CryptoPP::SymmetricCipher>>' being compiled
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\integer.h(49,38): warning C4275: non dll-interface struct 'CryptoPP::InitializeInteger' used as base for dll-interface class 'CryptoPP::Integer'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\integer.h(29,8): message : see declaration of 'CryptoPP::InitializeInteger'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\integer.h(49,20): message : see declaration of 'CryptoPP::Integer'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\integer.h(741,18): warning C4251: 'CryptoPP::Integer::reg': class 'CryptoPP::SecBlock<CryptoPP::word,CryptoPP::AllocatorWithCleanup<CryptoPP::word,true>>' needs to have dll-interface to be used by clients of class 'CryptoPP::Integer'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\integer.h(35,9): message : see declaration of 'CryptoPP::SecBlock<CryptoPP::word,CryptoPP::AllocatorWithCleanup<CryptoPP::word,true>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\algparam.h(128,52): warning C4275: non dll-interface class 'CryptoPP::NameValuePairs' used as base for dll-interface class 'CryptoPP::CombinedNameValuePairs'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\cryptlib.h(321,7): message : see declaration of 'CryptoPP::NameValuePairs'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\algparam.h(128,20): message : see declaration of 'CryptoPP::CombinedNameValuePairs'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\algparam.h(364,38): warning C4251: 'CryptoPP::AlgorithmParametersBase::m_next': class 'CryptoPP::member_ptr<CryptoPP::AlgorithmParametersBase>' needs to have dll-interface to be used by clients of class 'CryptoPP::AlgorithmParametersBase'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\algparam.h(364,2): message : see declaration of 'CryptoPP::member_ptr<CryptoPP::AlgorithmParametersBase>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\algparam.h(412,4): warning C4251: 'CryptoPP::AlgorithmParametersTemplate<CryptoPP::ConstByteArrayParameter>::m_value': class 'CryptoPP::ConstByteArrayParameter' needs to have dll-interface to be used by clients of class 'CryptoPP::AlgorithmParametersTemplate<CryptoPP::ConstByteArrayParameter>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\algparam.h(24,7): message : see declaration of 'CryptoPP::ConstByteArrayParameter'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\algparam.h(417,81): message : see reference to class template instantiation 'CryptoPP::AlgorithmParametersTemplate<CryptoPP::ConstByteArrayParameter>' being compiled
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\algparam.h(425,49): warning C4275: non dll-interface class 'CryptoPP::NameValuePairs' used as base for dll-interface class 'CryptoPP::AlgorithmParameters'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\cryptlib.h(321,7): message : see declaration of 'CryptoPP::NameValuePairs'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\algparam.h(425,20): message : see declaration of 'CryptoPP::AlgorithmParameters'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\algparam.h(488,38): warning C4251: 'CryptoPP::AlgorithmParameters::m_next': class 'CryptoPP::member_ptr<CryptoPP::AlgorithmParametersBase>' needs to have dll-interface to be used by clients of class 'CryptoPP::AlgorithmParameters'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\algparam.h(364,2): message : see declaration of 'CryptoPP::member_ptr<CryptoPP::AlgorithmParametersBase>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\modes.h(143,15): warning C4251: 'CryptoPP::CipherModeBase::m_register': class 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>' needs to have dll-interface to be used by clients of class 'CryptoPP::CipherModeBase'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\secblockfwd.h(23,9): message : see declaration of 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\modes.h(184,15): warning C4251: 'CryptoPP::CFB_ModePolicy::m_temp': class 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>' needs to have dll-interface to be used by clients of class 'CryptoPP::CFB_ModePolicy'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\secblockfwd.h(23,9): message : see declaration of 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\modes.h(246,23): warning C4251: 'CryptoPP::CTR_ModePolicy::m_counterArray': class 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>' needs to have dll-interface to be used by clients of class 'CryptoPP::CTR_ModePolicy'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\secblockfwd.h(23,9): message : see declaration of 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\modes.h(267,15): warning C4251: 'CryptoPP::BlockOrientedCipherModeBase::m_buffer': class 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>' needs to have dll-interface to be used by clients of class 'CryptoPP::BlockOrientedCipherModeBase'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\secblockfwd.h(23,9): message : see declaration of 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\modes.h(332,15): warning C4251: 'CryptoPP::CBC_Decryption::m_temp': class 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>' needs to have dll-interface to be used by clients of class 'CryptoPP::CBC_Decryption'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\secblockfwd.h(23,9): message : see declaration of 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\strciphr.h(397,22): warning C4251: 'CryptoPP::AdditiveCipherTemplate<CryptoPP::AbstractPolicyHolder<CryptoPP::AdditiveCipherAbstractPolicy,CryptoPP::OFB_ModePolicy>>::m_buffer': class 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,true>>' needs to have dll-interface to be used by clients of class 'CryptoPP::AdditiveCipherTemplate<CryptoPP::AbstractPolicyHolder<CryptoPP::AdditiveCipherAbstractPolicy,CryptoPP::OFB_ModePolicy>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\secblockfwd.h(25,9): message : see declaration of 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,true>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\modes.h(488,120): message : see reference to class template instantiation 'CryptoPP::AdditiveCipherTemplate<CryptoPP::AbstractPolicyHolder<CryptoPP::AdditiveCipherAbstractPolicy,CryptoPP::OFB_ModePolicy>>' being compiled
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\strciphr.h(397,22): warning C4251: 'CryptoPP::AdditiveCipherTemplate<CryptoPP::AbstractPolicyHolder<CryptoPP::AdditiveCipherAbstractPolicy,CryptoPP::CTR_ModePolicy>>::m_buffer': class 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,true>>' needs to have dll-interface to be used by clients of class 'CryptoPP::AdditiveCipherTemplate<CryptoPP::AbstractPolicyHolder<CryptoPP::AdditiveCipherAbstractPolicy,CryptoPP::CTR_ModePolicy>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\secblockfwd.h(25,9): message : see declaration of 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,true>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\modes.h(509,120): message : see reference to class template instantiation 'CryptoPP::AdditiveCipherTemplate<CryptoPP::AbstractPolicyHolder<CryptoPP::AdditiveCipherAbstractPolicy,CryptoPP::CTR_ModePolicy>>' being compiled
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\cmac.h(46,15): warning C4251: 'CryptoPP::CMAC_Base::m_reg': class 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>' needs to have dll-interface to be used by clients of class 'CryptoPP::CMAC_Base'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\secblockfwd.h(23,9): message : see declaration of 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\channels.h(127,11): warning C4251: 'CryptoPP::ChannelSwitch::m_routeMap': class 'std::multimap<std::string,CryptoPP::ChannelSwitchTypedefs::Route,std::less<cv::String>,std::allocator<std::pair<const std::string,CryptoPP::ChannelSwitchTypedefs::Route>>>' needs to have dll-interface to be used by clients of class 'CryptoPP::ChannelSwitch'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\channels.h(61,15): message : see declaration of 'std::multimap<std::string,CryptoPP::ChannelSwitchTypedefs::Route,std::less<cv::String>,std::allocator<std::pair<const std::string,CryptoPP::ChannelSwitchTypedefs::Route>>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\channels.h(128,19): warning C4251: 'CryptoPP::ChannelSwitch::m_defaultRoutes': class 'std::list<CryptoPP::ChannelSwitchTypedefs::DefaultRoute,std::allocator<CryptoPP::ChannelSwitchTypedefs::DefaultRoute>>' needs to have dll-interface to be used by clients of class 'CryptoPP::ChannelSwitch'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\channels.h(64,15): message : see declaration of 'std::list<CryptoPP::ChannelSwitchTypedefs::DefaultRoute,std::allocator<CryptoPP::ChannelSwitchTypedefs::DefaultRoute>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\channels.h(130,23): warning C4251: 'CryptoPP::ChannelSwitch::m_it': class 'CryptoPP::ChannelRouteIterator' needs to have dll-interface to be used by clients of class 'CryptoPP::ChannelSwitch'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\channels.h(73,7): message : see declaration of 'CryptoPP::ChannelRouteIterator'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\des.h(25,32): warning C4251: 'CryptoPP::RawDES::k': class 'CryptoPP::FixedSizeSecBlock<CryptoPP::word32,32,CryptoPP::FixedSizeAllocatorWithCleanup<T,32,CryptoPP::NullAllocator<T>,false>>' needs to have dll-interface to be used by clients of class 'CryptoPP::RawDES'
+          with
+          [
+              T=CryptoPP::word32
+          ]
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\des.h(25,2): message : see declaration of 'CryptoPP::FixedSizeSecBlock<CryptoPP::word32,32,CryptoPP::FixedSizeAllocatorWithCleanup<T,32,CryptoPP::NullAllocator<T>,false>>'
+          with
+          [
+              T=CryptoPP::word32
+          ]
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\des.h(76,2): warning C4275: non dll-interface struct 'CryptoPP::DES_EDE2_Info' used as base for dll-interface class 'CryptoPP::TwoBases<BASE,INFO>'
+          with
+          [
+              BASE=CryptoPP::BlockCipher,
+              INFO=CryptoPP::DES_EDE2_Info
+          ]
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\des.h(64,8): message : see declaration of 'CryptoPP::DES_EDE2_Info'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\seckey.h(305,91): message : see declaration of 'CryptoPP::TwoBases<BASE,INFO>'
+          with
+          [
+              BASE=CryptoPP::BlockCipher,
+              INFO=CryptoPP::DES_EDE2_Info
+          ]
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\des.h(104,2): warning C4275: non dll-interface struct 'CryptoPP::DES_EDE3_Info' used as base for dll-interface class 'CryptoPP::TwoBases<BASE,INFO>'
+          with
+          [
+              BASE=CryptoPP::BlockCipher,
+              INFO=CryptoPP::DES_EDE3_Info
+          ]
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\des.h(92,8): message : see declaration of 'CryptoPP::DES_EDE3_Info'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\seckey.h(305,91): message : see declaration of 'CryptoPP::TwoBases<BASE,INFO>'
+          with
+          [
+              BASE=CryptoPP::BlockCipher,
+              INFO=CryptoPP::DES_EDE3_Info
+          ]
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\algebra.h(240,23): warning C4251: 'CryptoPP::AbstractRing<CryptoPP::Integer>::m_mg': class 'CryptoPP::AbstractRing<CryptoPP::Integer>::MultiplicativeGroupT' needs to have dll-interface to be used by clients of class 'CryptoPP::AbstractRing<CryptoPP::Integer>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\algebra.h(198,1): message : see declaration of 'CryptoPP::AbstractRing<CryptoPP::Integer>::MultiplicativeGroupT'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\modarith.h(25,50): message : see reference to class template instantiation 'CryptoPP::AbstractRing<CryptoPP::Integer>' being compiled
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\modarith.h(335,26): warning C4251: 'CryptoPP::MontgomeryRepresentation::m_workspace': class 'CryptoPP::SecBlock<CryptoPP::word,CryptoPP::AllocatorWithCleanup<CryptoPP::word,true>>' needs to have dll-interface to be used by clients of class 'CryptoPP::MontgomeryRepresentation'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\integer.h(35,9): message : see declaration of 'CryptoPP::SecBlock<CryptoPP::word,CryptoPP::AllocatorWithCleanup<CryptoPP::word,true>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\filters.h(162,37): warning C4251: 'CryptoPP::Filter::m_attachment': class 'CryptoPP::member_ptr<CryptoPP::BufferedTransformation>' needs to have dll-interface to be used by clients of class 'CryptoPP::Filter'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\filters.h(162,2): message : see declaration of 'CryptoPP::member_ptr<CryptoPP::BufferedTransformation>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\filters.h(226,15): warning C4251: 'CryptoPP::FilterPutSpaceHelper::m_tempSpace': class 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>' needs to have dll-interface to be used by clients of struct 'CryptoPP::FilterPutSpaceHelper'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\secblockfwd.h(23,9): message : see declaration of 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\filters.h(310,27): warning C4251: 'CryptoPP::MeterFilter::m_rangesToSkip': class 'std::deque<CryptoPP::MeterFilter::MessageRange,std::allocator<CryptoPP::MeterFilter::MessageRange>>' needs to have dll-interface to be used by clients of class 'CryptoPP::MeterFilter'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\filters.h(310,7): message : see declaration of 'std::deque<CryptoPP::MeterFilter::MessageRange,std::allocator<CryptoPP::MeterFilter::MessageRange>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\filters.h(450,13): warning C4251: 'CryptoPP::FilterWithBufferedInput::m_queue': class 'CryptoPP::FilterWithBufferedInput::BlockQueue' needs to have dll-interface to be used by clients of class 'CryptoPP::FilterWithBufferedInput'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\filters.h(431,8): message : see declaration of 'CryptoPP::FilterWithBufferedInput::BlockQueue'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\filters.h(605,14): warning C4251: 'CryptoPP::HashFilter::m_messagePutChannel': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'CryptoPP::HashFilter'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(5119,29): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\filters.h(605,35): warning C4251: 'CryptoPP::HashFilter::m_hashPutChannel': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'CryptoPP::HashFilter'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(5119,29): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\filters.h(667,15): warning C4251: 'CryptoPP::HashVerificationFilter::m_expectedHash': class 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>' needs to have dll-interface to be used by clients of class 'CryptoPP::HashVerificationFilter'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\secblockfwd.h(23,9): message : see declaration of 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\filters.h(814,36): warning C4251: 'CryptoPP::SignerFilter::m_messageAccumulator': class 'CryptoPP::member_ptr<CryptoPP::PK_MessageAccumulator>' needs to have dll-interface to be used by clients of class 'CryptoPP::SignerFilter'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\filters.h(814,2): message : see declaration of 'CryptoPP::member_ptr<CryptoPP::PK_MessageAccumulator>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\filters.h(816,15): warning C4251: 'CryptoPP::SignerFilter::m_buf': class 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>' needs to have dll-interface to be used by clients of class 'CryptoPP::SignerFilter'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\secblockfwd.h(23,9): message : see declaration of 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\filters.h(875,36): warning C4251: 'CryptoPP::SignatureVerificationFilter::m_messageAccumulator': class 'CryptoPP::member_ptr<CryptoPP::PK_MessageAccumulator>' needs to have dll-interface to be used by clients of class 'CryptoPP::SignatureVerificationFilter'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\filters.h(814,2): message : see declaration of 'CryptoPP::member_ptr<CryptoPP::PK_MessageAccumulator>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\filters.h(877,15): warning C4251: 'CryptoPP::SignatureVerificationFilter::m_signature': class 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>' needs to have dll-interface to be used by clients of class 'CryptoPP::SignatureVerificationFilter'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\secblockfwd.h(23,9): message : see declaration of 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\filters.h(1059,37): warning C4251: 'CryptoPP::ProxyFilter::m_filter': class 'CryptoPP::member_ptr<CryptoPP::BufferedTransformation>' needs to have dll-interface to be used by clients of class 'CryptoPP::ProxyFilter'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\filters.h(162,2): message : see declaration of 'CryptoPP::member_ptr<CryptoPP::BufferedTransformation>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\filters.h(1459,1): warning C4251: 'CryptoPP::SourceTemplate<CryptoPP::StringStore>::m_store': class 'CryptoPP::StringStore' needs to have dll-interface to be used by clients of class 'CryptoPP::SourceTemplate<CryptoPP::StringStore>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\filters.h(1258,7): message : see declaration of 'CryptoPP::StringStore'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\pubkey.h(464,15): warning C4251: 'CryptoPP::PK_MessageAccumulatorBase::m_recoverableMessage': class 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>' needs to have dll-interface to be used by clients of class 'CryptoPP::PK_MessageAccumulatorBase'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\secblockfwd.h(23,9): message : see declaration of 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\pubkey.h(464,37): warning C4251: 'CryptoPP::PK_MessageAccumulatorBase::m_representative': class 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>' needs to have dll-interface to be used by clients of class 'CryptoPP::PK_MessageAccumulatorBase'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\secblockfwd.h(23,9): message : see declaration of 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\pubkey.h(464,55): warning C4251: 'CryptoPP::PK_MessageAccumulatorBase::m_presignature': class 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>' needs to have dll-interface to be used by clients of class 'CryptoPP::PK_MessageAccumulatorBase'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\secblockfwd.h(23,9): message : see declaration of 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\pubkey.h(464,71): warning C4251: 'CryptoPP::PK_MessageAccumulatorBase::m_semisignature': class 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>' needs to have dll-interface to be used by clients of class 'CryptoPP::PK_MessageAccumulatorBase'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\secblockfwd.h(23,9): message : see declaration of 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\eprecomp.h(153,23): warning C4251: 'CryptoPP::DL_FixedBasePrecomputationImpl<CryptoPP::Integer>::m_bases': class 'std::vector<CryptoPP::Integer,std::allocator<CryptoPP::Integer>>' needs to have dll-interface to be used by clients of class 'CryptoPP::DL_FixedBasePrecomputationImpl<CryptoPP::Integer>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\eprecomp.h(153,7): message : see declaration of 'std::vector<CryptoPP::Integer,std::allocator<CryptoPP::Integer>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\modexppc.h(19,68): message : see reference to class template instantiation 'CryptoPP::DL_FixedBasePrecomputationImpl<CryptoPP::Integer>' being compiled
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\sha.h(27,1): warning C4251: 'CryptoPP::IteratedHash<T_HashWordType,T_Endianness,64,CryptoPP::HashTransformation>::m_data': class 'CryptoPP::FixedSizeSecBlock<T_HashWordType,16,CryptoPP::FixedSizeAllocatorWithCleanup<T,16,CryptoPP::NullAllocator<T>,false>>' needs to have dll-interface to be used by clients of class 'CryptoPP::IteratedHash<T_HashWordType,T_Endianness,64,CryptoPP::HashTransformation>'
+          with
+          [
+              T_HashWordType=CryptoPP::word32,
+              T_Endianness=CryptoPP::BigEndian
+          ]
+          and
+          [
+              T_HashWordType=CryptoPP::word32,
+              T=CryptoPP::word32
+          ]
+          and
+          [
+              T_HashWordType=CryptoPP::word32,
+              T_Endianness=CryptoPP::BigEndian
+          ]
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\iterhash.h(167,2): message : see declaration of 'CryptoPP::FixedSizeSecBlock<T_HashWordType,16,CryptoPP::FixedSizeAllocatorWithCleanup<T,16,CryptoPP::NullAllocator<T>,false>>'
+          with
+          [
+              T_HashWordType=CryptoPP::word32,
+              T=CryptoPP::word32
+          ]
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\sha.h(27,1): warning C4251: 'CryptoPP::IteratedHashWithStaticTransform<CryptoPP::word32,CryptoPP::BigEndian,64,20,CryptoPP::SHA1,0,false>::m_state': class 'CryptoPP::FixedSizeAlignedSecBlock<T_HashWordType,16,false>' needs to have dll-interface to be used by clients of class 'CryptoPP::IteratedHashWithStaticTransform<CryptoPP::word32,CryptoPP::BigEndian,64,20,CryptoPP::SHA1,0,false>'
+          with
+          [
+              T_HashWordType=CryptoPP::word32
+          ]
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\iterhash.h(201,2): message : see declaration of 'CryptoPP::FixedSizeAlignedSecBlock<T_HashWordType,16,false>'
+          with
+          [
+              T_HashWordType=CryptoPP::word32
+          ]
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\sha.h(65,1): warning C4251: 'CryptoPP::IteratedHashWithStaticTransform<CryptoPP::word32,CryptoPP::BigEndian,64,32,CryptoPP::SHA256,32,true>::m_state': class 'CryptoPP::FixedSizeAlignedSecBlock<T_HashWordType,16,true>' needs to have dll-interface to be used by clients of class 'CryptoPP::IteratedHashWithStaticTransform<CryptoPP::word32,CryptoPP::BigEndian,64,32,CryptoPP::SHA256,32,true>'
+          with
+          [
+              T_HashWordType=CryptoPP::word32
+          ]
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\iterhash.h(201,2): message : see declaration of 'CryptoPP::FixedSizeAlignedSecBlock<T_HashWordType,16,true>'
+          with
+          [
+              T_HashWordType=CryptoPP::word32
+          ]
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\sha.h(104,1): warning C4251: 'CryptoPP::IteratedHashWithStaticTransform<CryptoPP::word32,CryptoPP::BigEndian,64,32,CryptoPP::SHA224,28,true>::m_state': class 'CryptoPP::FixedSizeAlignedSecBlock<T_HashWordType,16,true>' needs to have dll-interface to be used by clients of class 'CryptoPP::IteratedHashWithStaticTransform<CryptoPP::word32,CryptoPP::BigEndian,64,32,CryptoPP::SHA224,28,true>'
+          with
+          [
+              T_HashWordType=CryptoPP::word32
+          ]
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\iterhash.h(201,2): message : see declaration of 'CryptoPP::FixedSizeAlignedSecBlock<T_HashWordType,16,true>'
+          with
+          [
+              T_HashWordType=CryptoPP::word32
+          ]
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\sha.h(142,1): warning C4251: 'CryptoPP::IteratedHash<T_HashWordType,T_Endianness,128,CryptoPP::HashTransformation>::m_data': class 'CryptoPP::FixedSizeSecBlock<T_HashWordType,16,CryptoPP::FixedSizeAllocatorWithCleanup<T,16,CryptoPP::NullAllocator<T>,false>>' needs to have dll-interface to be used by clients of class 'CryptoPP::IteratedHash<T_HashWordType,T_Endianness,128,CryptoPP::HashTransformation>'
+          with
+          [
+              T_HashWordType=CryptoPP::word64,
+              T_Endianness=CryptoPP::BigEndian
+          ]
+          and
+          [
+              T_HashWordType=CryptoPP::word64,
+              T=CryptoPP::word64
+          ]
+          and
+          [
+              T_HashWordType=CryptoPP::word64,
+              T_Endianness=CryptoPP::BigEndian
+          ]
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\iterhash.h(167,2): message : see declaration of 'CryptoPP::FixedSizeSecBlock<T_HashWordType,16,CryptoPP::FixedSizeAllocatorWithCleanup<T,16,CryptoPP::NullAllocator<T>,false>>'
+          with
+          [
+              T_HashWordType=CryptoPP::word64,
+              T=CryptoPP::word64
+          ]
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\sha.h(142,1): warning C4251: 'CryptoPP::IteratedHashWithStaticTransform<CryptoPP::word64,CryptoPP::BigEndian,128,64,CryptoPP::SHA512,64,true>::m_state': class 'CryptoPP::FixedSizeAlignedSecBlock<T_HashWordType,16,true>' needs to have dll-interface to be used by clients of class 'CryptoPP::IteratedHashWithStaticTransform<CryptoPP::word64,CryptoPP::BigEndian,128,64,CryptoPP::SHA512,64,true>'
+          with
+          [
+              T_HashWordType=CryptoPP::word64
+          ]
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\iterhash.h(201,2): message : see declaration of 'CryptoPP::FixedSizeAlignedSecBlock<T_HashWordType,16,true>'
+          with
+          [
+              T_HashWordType=CryptoPP::word64
+          ]
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\sha.h(177,1): warning C4251: 'CryptoPP::IteratedHashWithStaticTransform<CryptoPP::word64,CryptoPP::BigEndian,128,64,CryptoPP::SHA384,48,true>::m_state': class 'CryptoPP::FixedSizeAlignedSecBlock<T_HashWordType,16,true>' needs to have dll-interface to be used by clients of class 'CryptoPP::IteratedHashWithStaticTransform<CryptoPP::word64,CryptoPP::BigEndian,128,64,CryptoPP::SHA384,48,true>'
+          with
+          [
+              T_HashWordType=CryptoPP::word64
+          ]
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\iterhash.h(201,2): message : see declaration of 'CryptoPP::FixedSizeAlignedSecBlock<T_HashWordType,16,true>'
+          with
+          [
+              T_HashWordType=CryptoPP::word64
+          ]
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\asn.h(338,22): warning C4251: 'CryptoPP::OID::m_values': class 'std::vector<std::_Vbase,std::allocator<std::_Vbase>>' needs to have dll-interface to be used by clients of class 'CryptoPP::OID'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(2775,30): message : see declaration of 'std::vector<std::_Vbase,std::allocator<std::_Vbase>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\hmac.h(41,15): warning C4251: 'CryptoPP::HMAC_Base::m_buf': class 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>' needs to have dll-interface to be used by clients of class 'CryptoPP::HMAC_Base'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\secblockfwd.h(23,9): message : see declaration of 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\gfpcrypt.h(183,1): warning C4251: 'CryptoPP::DL_GroupParametersImpl<GROUP_PRECOMP,BASE_PRECOMP,CryptoPP::DL_GroupParameters_IntegerBased>::m_groupPrecomputation': class 'CryptoPP::ModExpPrecomputation' needs to have dll-interface to be used by clients of class 'CryptoPP::DL_GroupParametersImpl<GROUP_PRECOMP,BASE_PRECOMP,CryptoPP::DL_GroupParameters_IntegerBased>'
+          with
+          [
+              GROUP_PRECOMP=CryptoPP::ModExpPrecomputation,
+              BASE_PRECOMP=CryptoPP::DL_FixedBasePrecomputationImpl<CryptoPP::Integer>
+          ]
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\modexppc.h(21,7): message : see declaration of 'CryptoPP::ModExpPrecomputation'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\gfpcrypt.h(221,86): message : see reference to class template instantiation 'CryptoPP::DL_GroupParameters_IntegerBasedImpl<CryptoPP::ModExpPrecomputation,CryptoPP::DL_FixedBasePrecomputationImpl<CryptoPP::Integer>>' being compiled
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\gfpcrypt.h(493,21): warning C4251: 'CryptoPP::DL_Algorithm_DSA_RFC6979<CryptoPP::Integer,CryptoPP::SHA1>::m_hmac': class 'CryptoPP::HMAC<H>' needs to have dll-interface to be used by clients of class 'CryptoPP::DL_Algorithm_DSA_RFC6979<CryptoPP::Integer,CryptoPP::SHA1>'
+          with
+          [
+              H=CryptoPP::SHA1
+          ]
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\gfpcrypt.h(493,13): message : see declaration of 'CryptoPP::HMAC<H>'
+          with
+          [
+              H=CryptoPP::SHA1
+          ]
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\gfpcrypt.h(537,68): message : see reference to class template instantiation 'CryptoPP::DL_Algorithm_DSA_RFC6979<CryptoPP::Integer,CryptoPP::SHA1>' being compiled
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\gfpcrypt.h(493,21): warning C4251: 'CryptoPP::DL_Algorithm_DSA_RFC6979<CryptoPP::Integer,CryptoPP::SHA224>::m_hmac': class 'CryptoPP::HMAC<H>' needs to have dll-interface to be used by clients of class 'CryptoPP::DL_Algorithm_DSA_RFC6979<CryptoPP::Integer,CryptoPP::SHA224>'
+          with
+          [
+              H=CryptoPP::SHA224
+          ]
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\gfpcrypt.h(493,13): message : see declaration of 'CryptoPP::HMAC<H>'
+          with
+          [
+              H=CryptoPP::SHA224
+          ]
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\gfpcrypt.h(538,70): message : see reference to class template instantiation 'CryptoPP::DL_Algorithm_DSA_RFC6979<CryptoPP::Integer,CryptoPP::SHA224>' being compiled
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\gfpcrypt.h(493,21): warning C4251: 'CryptoPP::DL_Algorithm_DSA_RFC6979<CryptoPP::Integer,CryptoPP::SHA256>::m_hmac': class 'CryptoPP::HMAC<H>' needs to have dll-interface to be used by clients of class 'CryptoPP::DL_Algorithm_DSA_RFC6979<CryptoPP::Integer,CryptoPP::SHA256>'
+          with
+          [
+              H=CryptoPP::SHA256
+          ]
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\gfpcrypt.h(493,13): message : see declaration of 'CryptoPP::HMAC<H>'
+          with
+          [
+              H=CryptoPP::SHA256
+          ]
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\gfpcrypt.h(539,70): message : see reference to class template instantiation 'CryptoPP::DL_Algorithm_DSA_RFC6979<CryptoPP::Integer,CryptoPP::SHA256>' being compiled
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\gfpcrypt.h(493,21): warning C4251: 'CryptoPP::DL_Algorithm_DSA_RFC6979<CryptoPP::Integer,CryptoPP::SHA384>::m_hmac': class 'CryptoPP::HMAC<H>' needs to have dll-interface to be used by clients of class 'CryptoPP::DL_Algorithm_DSA_RFC6979<CryptoPP::Integer,CryptoPP::SHA384>'
+          with
+          [
+              H=CryptoPP::SHA384
+          ]
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\gfpcrypt.h(493,13): message : see declaration of 'CryptoPP::HMAC<H>'
+          with
+          [
+              H=CryptoPP::SHA384
+          ]
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\gfpcrypt.h(540,70): message : see reference to class template instantiation 'CryptoPP::DL_Algorithm_DSA_RFC6979<CryptoPP::Integer,CryptoPP::SHA384>' being compiled
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\gfpcrypt.h(493,21): warning C4251: 'CryptoPP::DL_Algorithm_DSA_RFC6979<CryptoPP::Integer,CryptoPP::SHA512>::m_hmac': class 'CryptoPP::HMAC<H>' needs to have dll-interface to be used by clients of class 'CryptoPP::DL_Algorithm_DSA_RFC6979<CryptoPP::Integer,CryptoPP::SHA512>'
+          with
+          [
+              H=CryptoPP::SHA512
+          ]
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\gfpcrypt.h(493,13): message : see declaration of 'CryptoPP::HMAC<H>'
+          with
+          [
+              H=CryptoPP::SHA512
+          ]
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\gfpcrypt.h(541,70): message : see reference to class template instantiation 'CryptoPP::DL_Algorithm_DSA_RFC6979<CryptoPP::Integer,CryptoPP::SHA512>' being compiled
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\gf2n.h(251,15): warning C4251: 'CryptoPP::PolynomialMod2::reg': class 'CryptoPP::SecBlock<CryptoPP::word,CryptoPP::AllocatorWithCleanup<CryptoPP::word,false>>' needs to have dll-interface to be used by clients of class 'CryptoPP::PolynomialMod2'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\secblockfwd.h(24,9): message : see declaration of 'CryptoPP::SecBlock<CryptoPP::word,CryptoPP::AllocatorWithCleanup<CryptoPP::word,false>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\algebra.h(240,23): warning C4251: 'CryptoPP::AbstractRing<CryptoPP::PolynomialMod2>::m_mg': class 'CryptoPP::AbstractRing<CryptoPP::PolynomialMod2>::MultiplicativeGroupT' needs to have dll-interface to be used by clients of class 'CryptoPP::AbstractRing<CryptoPP::PolynomialMod2>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\algebra.h(198,1): message : see declaration of 'CryptoPP::AbstractRing<CryptoPP::PolynomialMod2>::MultiplicativeGroupT'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\gf2n.h(290,57): message : see reference to class template instantiation 'CryptoPP::AbstractRing<CryptoPP::PolynomialMod2>' being compiled
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\ec2n.h(89,22): warning C4251: 'CryptoPP::EC2N::m_field': class 'CryptoPP::clonable_ptr<CryptoPP::EC2N::Field>' needs to have dll-interface to be used by clients of class 'CryptoPP::EC2N'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\ec2n.h(89,2): message : see declaration of 'CryptoPP::clonable_ptr<CryptoPP::EC2N::Field>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\eprecomp.h(153,23): warning C4251: 'CryptoPP::DL_FixedBasePrecomputationImpl<CryptoPP::EC2N::Point>::m_bases': class 'std::vector<CryptoPP::EC2NPoint,std::allocator<CryptoPP::EC2NPoint>>' needs to have dll-interface to be used by clients of class 'CryptoPP::DL_FixedBasePrecomputationImpl<CryptoPP::EC2N::Point>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\eprecomp.h(153,7): message : see declaration of 'std::vector<CryptoPP::EC2NPoint,std::allocator<CryptoPP::EC2NPoint>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\ec2n.h(94,72): message : see reference to class template instantiation 'CryptoPP::DL_FixedBasePrecomputationImpl<CryptoPP::EC2N::Point>' being compiled
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\ecp.h(110,22): warning C4251: 'CryptoPP::ECP::m_fieldPtr': class 'CryptoPP::clonable_ptr<CryptoPP::ECP::Field>' needs to have dll-interface to be used by clients of class 'CryptoPP::ECP'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\ecp.h(110,2): message : see declaration of 'CryptoPP::clonable_ptr<CryptoPP::ECP::Field>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\eprecomp.h(153,23): warning C4251: 'CryptoPP::DL_FixedBasePrecomputationImpl<CryptoPP::ECP::Point>::m_bases': class 'std::vector<CryptoPP::ECPPoint,std::allocator<CryptoPP::ECPPoint>>' needs to have dll-interface to be used by clients of class 'CryptoPP::DL_FixedBasePrecomputationImpl<CryptoPP::ECP::Point>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\eprecomp.h(153,7): message : see declaration of 'std::vector<CryptoPP::ECPPoint,std::allocator<CryptoPP::ECPPoint>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\ecp.h(115,71): message : see reference to class template instantiation 'CryptoPP::DL_FixedBasePrecomputationImpl<CryptoPP::ECP::Point>' being compiled
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\eccrypto.h(661,55): warning C4251: 'CryptoPP::DL_GroupParametersImpl<CryptoPP::EcPrecomputation<CryptoPP::ECP>,CryptoPP::DL_FixedBasePrecomputationImpl<CryptoPP::ECP::Point>,CryptoPP::DL_GroupParameters<CryptoPP::ECPPoint>>::m_groupPrecomputation': class 'CryptoPP::EcPrecomputation<CryptoPP::ECP>' needs to have dll-interface to be used by clients of class 'CryptoPP::DL_GroupParametersImpl<CryptoPP::EcPrecomputation<CryptoPP::ECP>,CryptoPP::DL_FixedBasePrecomputationImpl<CryptoPP::ECP::Point>,CryptoPP::DL_GroupParameters<CryptoPP::ECPPoint>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\ecp.h(126,12): message : see declaration of 'CryptoPP::EcPrecomputation<CryptoPP::ECP>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\eccrypto.h(40,1): warning C4251: 'CryptoPP::DL_GroupParametersImpl<CryptoPP::EcPrecomputation<CryptoPP::EC2N>,CryptoPP::DL_FixedBasePrecomputationImpl<CryptoPP::EC2N::Point>,CryptoPP::DL_GroupParameters<CryptoPP::EC2NPoint>>::m_groupPrecomputation': class 'CryptoPP::EcPrecomputation<CryptoPP::EC2N>' needs to have dll-interface to be used by clients of class 'CryptoPP::DL_GroupParametersImpl<CryptoPP::EcPrecomputation<CryptoPP::EC2N>,CryptoPP::DL_FixedBasePrecomputationImpl<CryptoPP::EC2N::Point>,CryptoPP::DL_GroupParameters<CryptoPP::EC2NPoint>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\ec2n.h(104,12): message : see declaration of 'CryptoPP::EcPrecomputation<CryptoPP::EC2N>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\eccrypto.h(662,56): message : see reference to class template instantiation 'CryptoPP::DL_GroupParameters_EC<CryptoPP::EC2N>' being compiled
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\files.h(22,83): warning C4275: non dll-interface class 'CryptoPP::NotCopyable' used as base for dll-interface class 'CryptoPP::FileStore'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\misc.h(238,7): message : see declaration of 'CryptoPP::NotCopyable'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\files.h(22,20): message : see declaration of 'CryptoPP::FileStore'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\files.h(77,28): warning C4251: 'CryptoPP::FileStore::m_file': class 'CryptoPP::member_ptr<std::ifstream>' needs to have dll-interface to be used by clients of class 'CryptoPP::FileStore'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\files.h(77,2): message : see declaration of 'CryptoPP::member_ptr<std::ifstream>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\files.h(130,51): warning C4275: non dll-interface class 'CryptoPP::NotCopyable' used as base for dll-interface class 'CryptoPP::FileSink'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\misc.h(238,7): message : see declaration of 'CryptoPP::NotCopyable'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\files.h(130,20): message : see declaration of 'CryptoPP::FileSink'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\files.h(175,28): warning C4251: 'CryptoPP::FileSink::m_file': class 'CryptoPP::member_ptr<std::ofstream>' needs to have dll-interface to be used by clients of class 'CryptoPP::FileSink'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\files.h(175,2): message : see declaration of 'CryptoPP::member_ptr<std::ofstream>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\basecode.h(54,15): warning C4251: 'CryptoPP::BaseN_Encoder::m_outBuf': class 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>' needs to have dll-interface to be used by clients of class 'CryptoPP::BaseN_Encoder'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\secblockfwd.h(23,9): message : see declaration of 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\basecode.h(108,15): warning C4251: 'CryptoPP::BaseN_Decoder::m_outBuf': class 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>' needs to have dll-interface to be used by clients of class 'CryptoPP::BaseN_Decoder'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\secblockfwd.h(23,9): message : see declaration of 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\basecode.h(140,15): warning C4251: 'CryptoPP::Grouper::m_separator': class 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>' needs to have dll-interface to be used by clients of class 'CryptoPP::Grouper'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\secblockfwd.h(23,9): message : see declaration of 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\basecode.h(140,28): warning C4251: 'CryptoPP::Grouper::m_terminator': class 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>' needs to have dll-interface to be used by clients of class 'CryptoPP::Grouper'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\secblockfwd.h(23,9): message : see declaration of 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\mqueue.h(92,20): warning C4251: 'CryptoPP::MessageQueue::m_lengths': class 'std::deque<CryptoPP::lword,std::allocator<size_t>>' needs to have dll-interface to be used by clients of class 'CryptoPP::MessageQueue'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\mqueue.h(92,7): message : see declaration of 'std::deque<CryptoPP::lword,std::allocator<size_t>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\mqueue.h(93,27): warning C4251: 'CryptoPP::MessageQueue::m_messageCounts': class 'std::deque<unsigned int,std::allocator<std::_Vbase>>' needs to have dll-interface to be used by clients of class 'CryptoPP::MessageQueue'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\mqueue.h(93,7): message : see declaration of 'std::deque<unsigned int,std::allocator<std::_Vbase>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\mqueue.h(130,14): warning C4251: 'CryptoPP::EqualityComparisonFilter::m_firstChannel': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'CryptoPP::EqualityComparisonFilter'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(5119,29): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\mqueue.h(130,30): warning C4251: 'CryptoPP::EqualityComparisonFilter::m_secondChannel': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'CryptoPP::EqualityComparisonFilter'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(5119,29): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\randpool.h(43,70): warning C4275: non dll-interface class 'CryptoPP::NotCopyable' used as base for dll-interface class 'CryptoPP::RandomPool'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\misc.h(238,7): message : see declaration of 'CryptoPP::NotCopyable'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\randpool.h(43,20): message : see declaration of 'CryptoPP::RandomPool'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\randpool.h(54,43): warning C4251: 'CryptoPP::RandomPool::m_seed': class 'CryptoPP::FixedSizeAlignedSecBlock<CryptoPP::byte,16,true>' needs to have dll-interface to be used by clients of class 'CryptoPP::RandomPool'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\randpool.h(54,2): message : see declaration of 'CryptoPP::FixedSizeAlignedSecBlock<CryptoPP::byte,16,true>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\randpool.h(55,37): warning C4251: 'CryptoPP::RandomPool::m_key': class 'CryptoPP::FixedSizeAlignedSecBlock<CryptoPP::byte,32,true>' needs to have dll-interface to be used by clients of class 'CryptoPP::RandomPool'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\randpool.h(55,2): message : see declaration of 'CryptoPP::FixedSizeAlignedSecBlock<CryptoPP::byte,32,true>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\randpool.h(56,26): warning C4251: 'CryptoPP::RandomPool::m_pCipher': class 'CryptoPP::member_ptr<CryptoPP::BlockCipher>' needs to have dll-interface to be used by clients of class 'CryptoPP::RandomPool'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\randpool.h(56,2): message : see declaration of 'CryptoPP::member_ptr<CryptoPP::BlockCipher>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\randpool.h(98,15): warning C4251: 'CryptoPP::OldRandomPool::pool': class 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>' needs to have dll-interface to be used by clients of class 'CryptoPP::OldRandomPool'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\secblockfwd.h(23,9): message : see declaration of 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\randpool.h(98,21): warning C4251: 'CryptoPP::OldRandomPool::key': class 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>' needs to have dll-interface to be used by clients of class 'CryptoPP::OldRandomPool'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\secblockfwd.h(23,9): message : see declaration of 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\rng.h(49,67): warning C4275: non dll-interface class 'CryptoPP::NotCopyable' used as base for dll-interface class 'CryptoPP::X917RNG'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\misc.h(238,7): message : see declaration of 'CryptoPP::NotCopyable'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\rng.h(49,20): message : see declaration of 'CryptoPP::X917RNG'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\rng.h(73,34): warning C4251: 'CryptoPP::X917RNG::m_cipher': class 'CryptoPP::member_ptr<CryptoPP::BlockTransformation>' needs to have dll-interface to be used by clients of class 'CryptoPP::X917RNG'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\rng.h(73,2): message : see declaration of 'CryptoPP::member_ptr<CryptoPP::BlockTransformation>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\rng.h(75,15): warning C4251: 'CryptoPP::X917RNG::m_datetime': class 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>' needs to have dll-interface to be used by clients of class 'CryptoPP::X917RNG'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\secblockfwd.h(23,9): message : see declaration of 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\rng.h(76,15): warning C4251: 'CryptoPP::X917RNG::m_randseed': class 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>' needs to have dll-interface to be used by clients of class 'CryptoPP::X917RNG'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\secblockfwd.h(23,9): message : see declaration of 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\rng.h(76,27): warning C4251: 'CryptoPP::X917RNG::m_lastBlock': class 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>' needs to have dll-interface to be used by clients of class 'CryptoPP::X917RNG'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\secblockfwd.h(23,9): message : see declaration of 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\rng.h(76,40): warning C4251: 'CryptoPP::X917RNG::m_deterministicTimeVector': class 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>' needs to have dll-interface to be used by clients of class 'CryptoPP::X917RNG'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\secblockfwd.h(23,9): message : see declaration of 'CryptoPP::SecBlock<CryptoPP::byte,CryptoPP::AllocatorWithCleanup<CryptoPP::byte,false>>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\osrng.h(190,64): warning C4275: non dll-interface class 'CryptoPP::NotCopyable' used as base for dll-interface class 'CryptoPP::AutoSeededX917RNG<CryptoPP::AES>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\misc.h(238,7): message : see declaration of 'CryptoPP::NotCopyable'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\osrng.h(281,51): message : see declaration of 'CryptoPP::AutoSeededX917RNG<CryptoPP::AES>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\osrng.h(281,51): message : see reference to class template instantiation 'CryptoPP::AutoSeededX917RNG<CryptoPP::AES>' being compiled
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\osrng.h(234,36): warning C4251: 'CryptoPP::AutoSeededX917RNG<CryptoPP::AES>::m_rng': class 'CryptoPP::member_ptr<CryptoPP::RandomNumberGenerator>' needs to have dll-interface to be used by clients of class 'CryptoPP::AutoSeededX917RNG<CryptoPP::AES>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\osrng.h(234,2): message : see declaration of 'CryptoPP::member_ptr<CryptoPP::RandomNumberGenerator>'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\oaep.h(18,39): warning C4275: non dll-interface class 'CryptoPP::PK_EncryptionMessageEncodingMethod' used as base for dll-interface class 'CryptoPP::OAEP_Base'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\pubkey.h(208,26): message : see declaration of 'CryptoPP::PK_EncryptionMessageEncodingMethod'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\oaep.h(18,20): message : see declaration of 'CryptoPP::OAEP_Base'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\skipjack.h(39,2): warning C4275: non dll-interface struct 'CryptoPP::SKIPJACK_Info' used as base for dll-interface class 'CryptoPP::TwoBases<BASE,INFO>'
+          with
+          [
+              BASE=CryptoPP::BlockCipher,
+              INFO=CryptoPP::SKIPJACK_Info
+          ]
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\skipjack.h(22,8): message : see declaration of 'CryptoPP::SKIPJACK_Info'
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\seckey.h(305,91): message : see declaration of 'CryptoPP::TwoBases<BASE,INFO>'
+          with
+          [
+              BASE=CryptoPP::BlockCipher,
+              INFO=CryptoPP::SKIPJACK_Info
+          ]
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\skipjack.h(47,35): warning C4251: 'CryptoPP::SKIPJACK::Base::tab': class 'CryptoPP::FixedSizeSecBlock<CryptoPP::byte,2560,CryptoPP::FixedSizeAllocatorWithCleanup<T,2560,CryptoPP::NullAllocator<T>,false>>' needs to have dll-interface to be used by clients of class 'CryptoPP::SKIPJACK::Base'
+          with
+          [
+              T=CryptoPP::byte
+          ]
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\cryptopp\include\cryptopp\skipjack.h(47,3): message : see declaration of 'CryptoPP::FixedSizeSecBlock<CryptoPP::byte,2560,CryptoPP::FixedSizeAllocatorWithCleanup<T,2560,CryptoPP::NullAllocator<T>,false>>'
+          with
+          [
+              T=CryptoPP::byte
+          ]
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\ImageEncryption.cpp(50,23): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\ImageEncryption.cpp(58,24): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\ImageEncryption.cpp(204,26): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\ImageEncryption.cpp(207,26): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\ImageEncryption.cpp(210,26): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\ImageEncryption.cpp(345,25): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\ImageEncryption.cpp(348,25): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\ImageEncryption.cpp(351,25): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\ImageEncryption.cpp(381,26): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\ImageEncryption.cpp(384,26): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\ImageEncryption.cpp(387,26): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\ImageEncryption.cpp(528,26): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\QualityAssessment.cpp(78,19): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\ImageDecryption.cpp(249,30): warning C4244: 'argument': conversion from 'unsigned long' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=uchar
+          ]
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\ImageDecryption.cpp(248,90): warning C4244: 'argument': conversion from 'unsigned long' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=uchar
+          ]
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\ImageDecryption.cpp(248,60): warning C4244: 'argument': conversion from 'unsigned long' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=uchar
+          ]
+C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\ImageProcessing\project.cpp(359,56): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  ImageProcessing.vcxproj -> C:\Users\issa_\OneDrive\PPU University\Semester 8\CPP-Blocks\ImageProcessing\x64\Debug\ImageProcessing.exe

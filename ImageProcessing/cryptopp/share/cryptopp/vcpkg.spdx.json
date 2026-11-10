@@ -1,0 +1,137 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/cryptopp-x64-windows-8.7.0#3-54eba173-d76f-4c47-9d55-39d1b889aacb",
+  "name": "cryptopp:x64-windows@8.7.0#3 07beec55af75d07ac03a1a9f3df33c21bd134cf4ce47b03529264d5258d66ce9",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-664f8bb619b752430368d0f30a8289b761f5caba"
+    ],
+    "created": "2023-03-31T18:03:29Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-2"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-2",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-2",
+      "relationshipType": "DEPENDENCY_MANIFEST_OF",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "cryptopp",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "8.7.0#3",
+      "downloadLocation": "git+https://github.com/Microsoft/vcpkg#ports/cryptopp",
+      "homepage": "https://github.com/weidai11/cryptopp",
+      "licenseConcluded": "BSL-1.0",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "Crypto++ is a free C++ class library of cryptographic schemes.",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "cryptopp:x64-windows",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "07beec55af75d07ac03a1a9f3df33c21bd134cf4ce47b03529264d5258d66ce9",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "BSL-1.0",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-1",
+      "name": "abdes/cryptopp-cmake",
+      "downloadLocation": "git+https://github.com/abdes/cryptopp-cmake@206aab4cb1e6e78b8460b8c0fe08449c280e321e",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "594cf9c277d703462375bdd466acd0145e849f55a7519ab266c3f2a6bd810341e86b088b9b4419a2ba2e63146c26de5ac295be071ec008dffdee8dc1edf32157"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": "./patch.patch",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8886f4bc123b3f3ea4d0b7476fad8d4030621f13746d1d93953755a48e5cd2ce"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./portfile.cmake",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0bca0075ed7cd001412266f0eb73ffa2cd7d972a5c0c120743e98941d2c10faa"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./vcpkg.json",
+      "SPDXID": "SPDXRef-file-2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "299c5364a3492222c4487e755057d8da9934a32fb6adc7741c82aa54a1e02b0c"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}
