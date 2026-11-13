@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article below."
+title: "ThesisSelectiveEncryption"
+authors:
+  - family-names: Jacaman
+    given-names: Issa
+    orcid: "https://orcid.org/0009-0002-8570-1756"
+repository-code: "https://github.com/IJacaman/ThesisSelectiveEncryption"
+license: MIT
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Jacaman
+      given-names: Issa
+      orcid: "https://orcid.org/0009-0002-8570-1756"
+    - family-names: Farajallah
+      given-names: Mousa
+  title: "Selective Color Image Encryption Based on MSB and Sensitive Bits"
+  journal: "Journal of Intelligent Communication"
+  volume: 4
+  issue: 2
+  start: 115
+  end: 140
+  year: 2025
+  doi: "10.54963/jic.v4i2.1616"
